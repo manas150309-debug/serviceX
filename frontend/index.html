@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVEX PRO - Smart Local Service Marketplace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">SERVEX PRO</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Reliable Local Services Instantly</h1>
+            <p>Connect with verified service providers in real-time. Book plumbers, electricians, tutors, and more.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="window.location.href='login.html'">Get Started</button>
+                <button class="btn btn-secondary" onclick="window.location.href='#features'">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose SERVEX PRO?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Real-Time Matching</h3>
+                <p>Smart algorithm matches you with the best providers based on rating, distance, and price.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Dynamic Pricing</h3>
+                <p>Transparent pricing that adjusts based on demand and supply in real-time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Live Tracking</h3>
+                <p>Track your service provider in real-time with location updates and status notifications.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Verified Providers</h3>
+                <p>All service providers are verified and rated by the community.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Transparent Reviews</h3>
+                <p>Read honest reviews and ratings from other customers before booking.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Bidding System</h3>
+                <p>Get competitive bids from multiple providers and choose the best one.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to book your first service?</h2>
+        <button class="btn btn-large" onclick="window.location.href='register.html'">Sign Up Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SERVEX PRO. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
